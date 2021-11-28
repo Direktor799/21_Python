@@ -49,7 +49,7 @@ for thread in threads:
 
 result_list.sort()
 
-with open("res1.csv", "w", newline="") as f:
+with open("res1.csv", "w", newline="", encoding="utf8") as f:
     f_csv = csv.writer(f)
     f_csv.writerow(CSV_HEADERS)
     f_csv.writerows(result_list)

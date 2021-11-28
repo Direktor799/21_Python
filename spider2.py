@@ -28,8 +28,7 @@ page_num = 1
 while (True):
     webpage = requests.get(
         "https://www.xuetangx.com/api/v1/lms/get_org_list/?page={}&page_size=100&appid=10000&query=&order=3".format(page_num), headers=HEADERS)
-    soup = bs4.BeautifulSoup(webpage.text, features="lxml")
-    INFO_JSON = json.loads(soup.text)
+    INFO_JSON = json.loads(webpage.text)
     if len(INFO_JSON["data"]["org_list"]) == 0:
         break
     for INFO in INFO_JSON["data"]["org_list"]:
@@ -38,5 +37,5 @@ while (True):
         result["num"] = INFO["product_num"]
         result_list.append(result)
     page_num += 1
-with open("res2.json", "w") as f:
+with open("res2.json", "w",encoding="utf8") as f:
     json.dump(result_list, f, ensure_ascii=False, indent=4)
