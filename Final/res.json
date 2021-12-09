@@ -1,0 +1,437 @@
+{
+    "美国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=576O5Zu9&v=0.11103069081025652&lan=cn",
+        "new_infected": {
+            "07-29": 98616,
+            "07-30": 109588,
+            "07-31": 92536,
+            "08-01": 78556,
+            "08-02": 75906,
+            "08-03": 110701,
+            "08-04": 121578,
+            "08-05": 130611,
+            "08-06": 137881,
+            "08-07": 124348,
+            "08-08": 101717,
+            "08-09": 98366,
+            "08-10": 132219,
+            "08-11": 148729,
+            "08-12": 150573,
+            "08-13": 163270,
+            "08-14": 139153,
+            "08-15": 109973,
+            "08-16": 109722,
+            "08-17": 147804,
+            "08-18": 165244,
+            "08-19": 172003,
+            "08-20": 183008,
+            "08-21": 149581,
+            "08-22": 124124,
+            "08-23": 119244,
+            "08-24": 159003,
+            "08-25": 182156,
+            "08-26": 180072,
+            "08-27": 196214,
+            "08-28": 163226,
+            "08-29": 128015,
+            "08-30": 129328,
+            "08-31": 169996,
+            "09-01": 188607,
+            "09-02": 186443,
+            "09-03": 186644,
+            "09-04": 147928,
+            "09-05": 123707,
+            "09-06": 114184,
+            "09-07": 107621,
+            "09-08": 190915,
+            "09-09": 163569,
+            "09-10": 180537,
+            "09-11": 74975,
+            "09-12": 36694,
+            "09-13": 286741,
+            "09-14": 148102,
+            "09-15": 191575,
+            "09-16": 154274,
+            "09-17": 165853,
+            "09-18": 66898,
+            "09-19": 34101,
+            "09-20": 206722,
+            "09-21": 134674,
+            "09-22": 162575,
+            "09-23": 127429,
+            "09-24": 136374,
+            "09-25": 56924,
+            "09-26": 25379,
+            "09-27": 191352,
+            "09-28": 112490,
+            "09-29": 144671,
+            "09-30": 114928,
+            "10-01": 128981,
+            "10-02": 47492,
+            "10-03": 27540,
+            "10-04": 164398,
+            "10-05": 98365,
+            "10-06": 137365,
+            "10-07": 102702,
+            "10-08": 114353,
+            "10-09": 43589,
+            "10-10": 25164,
+            "10-11": 108980,
+            "10-12": 117814,
+            "10-13": 116753,
+            "10-14": 91092,
+            "10-15": 99573,
+            "10-16": 35590,
+            "10-17": 18357,
+            "10-18": 115680,
+            "10-19": 88295,
+            "10-20": 95855,
+            "10-21": 82185,
+            "10-22": 90049,
+            "10-23": 29614,
+            "10-24": 18572,
+            "10-25": 104743,
+            "10-26": 80194,
+            "10-27": 99284,
+            "10-28": 88142,
+            "10-29": 86834,
+            "10-30": 27991,
+            "10-31": 23968,
+            "11-01": 107346,
+            "11-02": 68487,
+            "11-03": 105697,
+            "11-04": 81788,
+            "11-05": 93193,
+            "11-06": 32963,
+            "11-07": 23165,
+            "11-08": 117373,
+            "11-09": 82586,
+            "11-10": 111209,
+            "11-11": 45771,
+            "11-12": 141294,
+            "11-13": 57187,
+            "11-14": 24193,
+            "11-15": 156708,
+            "11-16": 88479,
+            "11-17": 126548,
+            "11-18": 110530,
+            "11-19": 123141,
+            "11-20": 36633,
+            "11-21": 34581,
+            "11-22": 155747,
+            "11-23": 86659,
+            "11-24": 137334,
+            "11-25": 27187,
+            "11-26": 51180,
+            "11-27": 26778,
+            "11-28": 21895,
+            "11-29": 201480,
+            "11-30": 127843,
+            "12-01": 144209,
+            "12-02": 143703,
+            "12-03": 161224,
+            "12-04": 56742,
+            "12-05": 35065,
+            "12-06": 179469,
+            "12-07": 120811,
+            "12-08": 152274
+        }
+    },
+    "印度": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2w5bqm&v=0.561794933428283&lan=cn"
+    },
+    "巴西": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be06KW/&v=0.49374329198502087&lan=cn"
+    },
+    "英国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Iux5Zu9&v=0.8975095844206731&lan=cn"
+    },
+    "俄罗斯": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5L+E572X5pav&v=0.7500901648952596&lan=cn"
+    },
+    "土耳其": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Zyf6ICz5YW2&v=0.6413528332076999&lan=cn"
+    },
+    "法国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rOV5Zu9&v=0.4598448358338889&lan=cn"
+    },
+    "德国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5b635Zu9&v=0.8210445659793062&lan=cn"
+    },
+    "伊朗": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5LyK5pyX&v=0.625244859387307&lan=cn"
+    },
+    "阿根廷": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5qC55bu3&v=0.7971652439678838&lan=cn"
+    },
+    "西班牙": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6KW/54+t54mZ&v=0.4119761015544674&lan=cn"
+    },
+    "意大利": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5oSP5aSn5Yip&v=0.3218382555204342&lan=cn"
+    },
+    "哥伦比亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5ZOl5Lym5q+U5Lqa&v=0.12780858374881832&lan=cn"
+    },
+    "印度尼西亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2w5bqm5bC86KW/5Lqa&v=0.5135176115112994&lan=cn"
+    },
+    "墨西哥": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5aKo6KW/5ZOl&v=0.3615585562124288&lan=cn"
+    },
+    "波兰": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rOi5YWw&v=0.07981917801511695&lan=cn"
+    },
+    "乌克兰": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5LmM5YWL5YWw&v=0.4252770115832498&lan=cn"
+    },
+    "南非": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2X6Z2e&v=0.4708734751819008&lan=cn"
+    },
+    "荷兰": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6I235YWw&v=0.9617541890480774&lan=cn"
+    },
+    "菲律宾": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6I+y5b6L5a6+&v=0.3521426714013176&lan=cn"
+    },
+    "马来西亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6ams5p2l6KW/5Lqa&v=0.7736810939898122&lan=cn"
+    },
+    "捷克": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5o235YWL&v=0.5124831344503873&lan=cn"
+    },
+    "秘鲁": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=56eY6bKB&v=0.5316867591488104&lan=cn"
+    },
+    "泰国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rOw5Zu9&v=0.5328580752391265&lan=cn"
+    },
+    "伊拉克": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5LyK5ouJ5YWL&v=0.608577920004334&lan=cn"
+    },
+    "比利时": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5q+U5Yip5pe2&v=0.3564299683136434&lan=cn"
+    },
+    "加拿大": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Yqg5ou/5aSn&v=0.9779258047565642&lan=cn"
+    },
+    "罗马尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=572X6ams5bC85Lqa&v=0.2774060845329389&lan=cn"
+    },
+    "智利": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pm65Yip&v=0.7081369199247907&lan=cn"
+    },
+    "日本": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pel5pys&v=0.34086843070552386&lan=cn"
+    },
+    "孟加拉国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5a2f5Yqg5ouJ5Zu9&v=0.7214898293471987&lan=cn"
+    },
+    "越南": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6LaK5Y2X&v=0.5195192597164533&lan=cn"
+    },
+    "以色列": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Lul6Imy5YiX&v=0.3022987621252746&lan=cn"
+    },
+    "巴基斯坦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be05Z+65pav5Z2m&v=0.04851111488866211&lan=cn"
+    },
+    "塞尔维亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5aGe5bCU57u05Lqa&v=0.026933703537528997&lan=cn"
+    },
+    "瑞典": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=55Ge5YW4&v=0.9106812345207478&lan=cn"
+    },
+    "奥地利": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5aWl5Zyw5Yip&v=0.1340967181951742&lan=cn"
+    },
+    "葡萄牙": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6JGh6JCE54mZ&v=0.37946649376428865&lan=cn"
+    },
+    "匈牙利": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5YyI54mZ5Yip&v=0.6712336431469959&lan=cn"
+    },
+    "瑞士": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=55Ge5aOr&v=0.6870800727435771&lan=cn"
+    },
+    "哈萨克斯坦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5ZOI6JCo5YWL5pav5Z2m&v=0.90170465545011&lan=cn"
+    },
+    "约旦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=57qm5pem&v=0.3318885703427381&lan=cn"
+    },
+    "希腊": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5biM6IWK&v=0.4450530725555202&lan=cn"
+    },
+    "古巴": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y+k5be0&v=0.711065718467893&lan=cn"
+    },
+    "摩洛哥": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pGp5rSb5ZOl&v=0.3481956267599049&lan=cn"
+    },
+    "格鲁吉亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5qC86bKB5ZCJ5Lqa&v=0.6108557522716429&lan=cn"
+    },
+    "尼泊尔": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5bC85rOK5bCU&v=0.9699195907716609&lan=cn"
+    },
+    "斯洛伐克": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pav5rSb5LyQ5YWL&v=0.9998352061241853&lan=cn"
+    },
+    "阿拉伯联合酋长国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5ouJ5Lyv6IGU5ZCI6YWL6ZW/5Zu9&v=0.885515319664985&lan=cn"
+    },
+    "突尼斯": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=56qB5bC85pav&v=0.6312596485334374&lan=cn"
+    },
+    "保加利亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5L+d5Yqg5Yip5Lqa&v=0.5166692470362797&lan=cn"
+    },
+    "黎巴嫩": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6buO5be05aup&v=0.14301621972652057&lan=cn"
+    },
+    "白俄罗斯": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=55m95L+E572X5pav&v=0.30786525366562634&lan=cn"
+    },
+    "克罗地亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5YWL572X5Zyw5Lqa&v=0.4275174174636822&lan=cn"
+    },
+    "危地马拉": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2x5Zyw6ams5ouJ&v=0.9718879290962665&lan=cn"
+    },
+    "爱尔兰": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=54ix5bCU5YWw&v=0.8429252218735843&lan=cn"
+    },
+    "阿塞拜疆": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5aGe5ouc55aG&v=0.7505297582374009&lan=cn"
+    },
+    "斯里兰卡": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pav6YeM5YWw5Y2h&v=0.5287645536997425&lan=cn"
+    },
+    "哥斯达黎加": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5ZOl5pav6L6+6buO5Yqg&v=0.4424337401230718&lan=cn"
+    },
+    "沙特阿拉伯": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rKZ54m56Zi/5ouJ5Lyv&v=0.17913828592681047&lan=cn"
+    },
+    "玻利维亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=54675Yip57u05Lqa&v=0.11314681191340337&lan=cn"
+    },
+    "丹麦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Li56bqm&v=0.18546475391798078&lan=cn"
+    },
+    "厄瓜多尔": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y6E55Oc5aSa5bCU&v=0.021431352450584695&lan=cn"
+    },
+    "缅甸": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=57yF55S4&v=0.7680940547284261&lan=cn"
+    },
+    "韩国": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Z+p5Zu9&v=0.6280055498242636&lan=cn"
+    },
+    "立陶宛": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=56uL6Zm25a6b&v=0.26135684854907937&lan=cn"
+    },
+    "巴拿马": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be05ou/6ams&v=0.9316819965287633&lan=cn"
+    },
+    "巴拉圭": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be05ouJ5Zyt&v=0.8545772389902218&lan=cn"
+    },
+    "巴勒斯坦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be05YuS5pav5Z2m&v=0.8601795325294517&lan=cn"
+    },
+    "委内瑞拉": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5aeU5YaF55Ge5ouJ&v=0.14821423729965622&lan=cn"
+    },
+    "斯洛文尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pav5rSb5paH5bC85Lqa&v=0.5438594161528669&lan=cn"
+    },
+    "科威特": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=56eR5aiB54m5&v=0.9682211098661448&lan=cn"
+    },
+    "多米尼加": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5aSa57Gz5bC85Yqg&v=0.2966288584446519&lan=cn"
+    },
+    "乌拉圭": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5LmM5ouJ5Zyt&v=0.3286238797343728&lan=cn"
+    },
+    "蒙古": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6JKZ5Y+k&v=0.05168021608104145&lan=cn"
+    },
+    "洪都拉斯": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rSq6YO95ouJ5pav&v=0.5262123195856159&lan=cn"
+    },
+    "利比亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Yip5q+U5Lqa&v=0.9244760755191286&lan=cn"
+    },
+    "埃塞俄比亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Z+D5aGe5L+E5q+U5Lqa&v=0.6302630655835757&lan=cn"
+    },
+    "摩尔多瓦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5pGp5bCU5aSa55Om&v=0.7239450163448167&lan=cn"
+    },
+    "埃及": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Z+D5Y+K&v=0.31008474129547614&lan=cn"
+    },
+    "亚美尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Lqa576O5bC85Lqa&v=0.14504955107315642&lan=cn"
+    },
+    "阿曼": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5pu8&v=0.7194047954010152&lan=cn"
+    },
+    "挪威": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5oyq5aiB&v=0.3084672484490414&lan=cn"
+    },
+    "波斯尼亚和黑塞哥维那": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5rOi5pav5bC85Lqa5ZKM6buR5aGe5ZOl57u06YKj&v=0.5861543867851091&lan=cn"
+    },
+    "巴林": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5be05p6X&v=0.5880138047250343&lan=cn"
+    },
+    "新加坡": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5paw5Yqg5Z2h&v=0.26654842716130167&lan=cn"
+    },
+    "拉脱维亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5ouJ6ISx57u05Lqa&v=0.37967523351581334&lan=cn"
+    },
+    "肯尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6IKv5bC85Lqa&v=0.6553931845285947&lan=cn"
+    },
+    "卡塔尔": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2h5aGU5bCU&v=0.8470397135866323&lan=cn"
+    },
+    "爱沙尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=54ix5rKZ5bC85Lqa&v=0.9696121845208803&lan=cn"
+    },
+    "澳大利亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5r6z5aSn5Yip5Lqa&v=0.7348098293650072&lan=cn"
+    },
+    "马其顿": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6ams5YW26aG/&v=0.05051950029522767&lan=cn"
+    },
+    "尼日利亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5bC85pel5Yip5Lqa&v=0.9794637310785479&lan=cn"
+    },
+    "阿尔及利亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5bCU5Y+K5Yip5Lqa&v=0.7667937512089327&lan=cn"
+    },
+    "赞比亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6LWe5q+U5Lqa&v=0.37679462066302705&lan=cn"
+    },
+    "阿尔巴尼亚": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Zi/5bCU5be05bC85Lqa&v=0.5321494545853831&lan=cn"
+    },
+    "芬兰": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=6Iqs5YWw&v=0.031457547903296135&lan=cn"
+    },
+    "博茨瓦纳": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5Y2a6Iyo55Om57qz&v=0.24635018839696587&lan=cn"
+    },
+    "乌兹别克斯坦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5LmM5YW55Yir5YWL5pav5Z2m&v=0.9025189653442878&lan=cn"
+    },
+    "吉尔吉斯斯坦": {
+        "url": "http://wx.wind.com.cn/WindSariWeb/sari/messageCity.html?province=5Zu95aSW&city=5ZCJ5bCU5ZCJ5pav5pav5Z2m&v=0.05980024828164976&lan=cn"
+    }
+}

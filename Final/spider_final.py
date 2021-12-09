@@ -4,22 +4,20 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
-import datetime
-
-country_urls = []
-
-URL = "http://wx.wind.com.cn/WindSariWeb/sari/message.html?lan=cn"
+import json
 
 
 class Spider:
     def __init__(self):
         self.browser = webdriver.Chrome()
+        self.country_infos = {}
         pass
 
     def get_country_urls(self):
-        self.browser.get(URL)
+        URL = "http://wx.wind.com.cn/WindSariWeb/sari/message.html?lan=cn"
         BUTTON_SELECTOR = "#root > div > div > div.layout-header > div.telecom > ul > li:nth-child(3) > div > a"
         TABLE_SELECTOR = "#root > div > div > div:nth-child(16) > div > div.w-card-body > span > div > div.w-table-wrapper > div > div > div > div > div > table > tbody"
+        self.browser.get(URL)
         self.browser.find_element(
             By.CSS_SELECTOR, BUTTON_SELECTOR).click()   # 国外疫情
         table: WebElement = self.browser.find_element(
@@ -34,32 +32,62 @@ class Spider:
                 By.CSS_SELECTOR, "td.w-table-cell.w-table-align-left.w-table-header-align-center > span").text
             url = line.find_element(
                 By.CSS_SELECTOR, "td.w-table-cell.w-table-align-center.w-table-header-align-right.w-table-last-column > a").get_attribute("href")
-            country_urls.append((country_name, url))
+            self.country_infos[country_name] = {}
+            self.country_infos[country_name]["url"] = url
         print("urls reading completed")
-        return country_urls
 
-    def get_graph_data(self, country_name, url):
-        dict = {}
-        GRAPH_SELECTOR = "#root > div > div:nth-child(2) > div > div > div:nth-child(4) > div > div.w-card-body > div:nth-child(2) > div"
+    def get_country_statics(self, country_name, url):
+        print("getting statics for {}".format(country_name))
+        self.country_infos[country_name]["new_infected"] = {}
+        NEW_INFECTED_SELECTOR = "#root > div > div:nth-child(2) > div > div > div:nth-child({}) > div > div.w-card-body > div:nth-child(2) > div"
+        # ALL_INFECTED_SELECTOR = "#root > div > div:nth-child(2) > div > div > div:nth-child(5) > div > div.w-card-body > div:nth-child(4) > div > div:nth-child(1) > canvas"
+        if (country_name == "美国"):    # 美国有地图! :(
+            NEW_INFECTED_SELECTOR = NEW_INFECTED_SELECTOR.format(4)
+        else:
+            NEW_INFECTED_SELECTOR = NEW_INFECTED_SELECTOR.format(3)
         self.browser.get(url)
-        canvas: WebElement = self.browser.find_element(
-            By.CSS_SELECTOR, GRAPH_SELECTOR)
-        WIDTH = canvas.size["width"]
-        mouse_action: ActionChains = ActionChains(self.browser)
-        mouse_action.move_to_element(canvas)
-        mouse_action.perform()
-        for _ in range(int(WIDTH / 2)):
-            mouse_action.move_by_offset(1, 0).perform()
-            INFO = canvas.text.split('\n')
-            date = datetime.datetime.strptime(INFO[0], "%m-%d")
-            date = date.date().replace(2021)
+        new_infected_canvas: WebElement = self.browser.find_element(
+            By.CSS_SELECTOR, NEW_INFECTED_SELECTOR)
+        WIDTH = new_infected_canvas.size["width"]
+        HEIGHT = new_infected_canvas.size["height"]
+        for x_offset in range(int(WIDTH / 2)):
+            mouse_move: ActionChains = ActionChains(self.browser)
+            mouse_move.move_to_element_with_offset(new_infected_canvas,
+                                                   int(WIDTH / 2) + x_offset, int(HEIGHT / 2))
+            mouse_move.perform()
+            if len(new_infected_canvas.text) == 0:
+                break
+            INFO = new_infected_canvas.text.split('\n')
             new = int(INFO[1][5:].replace(',', ''))
-            dict[date] = new
-        print(dict)
+            self.country_infos[country_name]["new_infected"][INFO[0]] = new
+
+        # all_infected_canvas: WebElement = self.browser.find_element(
+        #     By.CSS_SELECTOR, NEW_INFECTED_SELECTOR)
+        # WIDTH = all_infected_canvas.size["width"]
+        # HEIGHT = all_infected_canvas.size["height"]
+        # for x_offset in range(int(WIDTH / 2)):
+        #     mouse_move: ActionChains = ActionChains(self.browser)
+        #     mouse_move.move_to_element_with_offset(all_infected_canvas,
+        #                                            int(WIDTH / 2) + x_offset, int(HEIGHT / 2))
+        #     mouse_move.perform()
+        #     if len(all_infected_canvas.text) == 0:
+        #         break
+        #     INFO = all_infected_canvas.text.split('\n')
+        #     new = int(INFO[1][5:].replace(',', ''))
+        #     self.country_infos[country_name]["new_infected"][INFO[0]] = new
+
+    def write_json(self, path: str):
+        with open(path, "w") as f:
+            json.dump(self.country_infos, f, indent=4, ensure_ascii=False)
+
+    def read_json(self, path: str):
+        with open(path, "r") as f:
+            self.country_infos = json.load(f)
 
 
 if __name__ == "__main__":
     spider = Spider()
-    country_urls = spider.get_country_urls()
-    for country, url in country_urls:
-        spider.get_graph_data(country, url)
+    spider.get_country_urls()
+    for country_name, country_info in spider.country_infos.items():
+        spider.get_country_statics(country_name, country_info["url"])
+        spider.write_json("res.json")
